@@ -38,7 +38,16 @@ const routes: Routes = [
   {
     path: 'perfil-escribenos',
     loadChildren: () => import('./perfil-escribenos/perfil-escribenos.module').then( m => m.PerfilEscribenosPageModule)
+  },
+  {
+    path: 'perfil-direccion',
+    loadChildren: () => import('./perfil-direccion/perfil-direccion.module').then( m => m.PerfilDireccionPageModule)
+  },
+  {
+    path: 'perfil-tarjetas',
+    loadChildren: () => import('./perfil-tarjetas/perfil-tarjetas.module').then( m => m.PerfilTarjetasPageModule)
   }
+
 ];
 @NgModule({
   imports: [

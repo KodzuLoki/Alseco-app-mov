@@ -1,0 +1,49 @@
+<!--HEADER-->
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button class="backbtn" routerLink="/perfil" routerDirection="back">
+        <i class='bx bxs-chevron-left'></i>
+      </ion-button></ion-buttons>
+    <ion-title>Tarjetas</ion-title>
+  </ion-toolbar>
+</ion-header>
+<!--HEADER-->
+<ion-content color="primary" >
+  <div class="ion-text-center ion-padding" ><p>Agrega o elige un metodo de pago</p></div>
+<!--TITULO-->
+<!--PRIMER MEDIO DE PAGO-->
+  <ion-card>
+  <ion-list>
+    <ion-item routerLink="/perfil-cuenta">
+      <ion-icon class="ion-padding" name="card-outline"></ion-icon>
+      <ion-label>
+        <h4>Visa 6123</h4>
+      </ion-label>         
+    </ion-item>
+<!--SEGUNDO MEDIO DE PAGO-->
+    <ion-item routerLink="/perfil-cuenta">
+      <ion-icon class="ion-padding"  name="card-outline"></ion-icon>
+      <ion-label>
+        <h4>Visa 2200 </h4>
+      </ion-label>         
+    </ion-item>
+<!--TERCER MEDIO DE PAGO-->
+    <ion-item routerLink="/perfil-cuenta">
+      <ion-icon class="ion-padding"  name="card-outline"></ion-icon>
+      <ion-label>
+        <h4>Google Pay</h4>
+      </ion-label>         
+    </ion-item>
+<!--AÑADIR OTRO MEDIO DE PAGO-->
+    <ion-item routerLink="/perfil-cuenta">
+      <ion-icon class="ion-padding" name="add-circle-outline"></ion-icon>
+      <ion-label>
+        <h4>Añadir forma de pago</h4>
+      </ion-label>         
+    </ion-item>
+  </ion-list>
+</ion-card>
+<!--FINAL MEDIO DE PAGOS-->
+</ion-content>
+
