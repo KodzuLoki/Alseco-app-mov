@@ -1,0 +1,65 @@
+
+
+
+  <ion-header  >
+    <ion-toolbar ion-padding color="primary" >     
+      <div style="margin-left: 25%;">
+      <img height="70px" class="ion-text-center"  src="assets/img/logo-inverted.svg"  />
+    </div>
+      <div class="ion-text-center ion-padding " >
+        <ion-label class="text-white ">Ariel Andrades</ion-label> 
+      </div>  
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-list>
+      <ion-item routerLink="/perfil-cuenta">
+        <ion-icon name="person-circle-outline" color="tertiary" class="ion-padding-horizontal"></ion-icon>
+        <ion-label> Cuenta</ion-label>
+        
+      </ion-item>
+  
+      <ion-item routerLink="/perfil-pedidos">
+        <ion-icon name="receipt" color="tertiary" class="ion-padding-horizontal"></ion-icon>
+        <ion-label> Mis Ordenes</ion-label>
+      </ion-item>
+  
+      <ion-item routerLink="/perfil-cuenta">
+        <ion-icon name="card-outline" color="tertiary" class="ion-padding-horizontal"></ion-icon>
+        <ion-label> Mis Tarjetas</ion-label>
+      </ion-item>
+
+      <ion-item routerLink="/perfil-cuenta">
+        <ion-icon name="map-outline" color="tertiary" class="ion-padding-horizontal"></ion-icon>
+        <ion-label> Direcciones</ion-label>
+      </ion-item>
+  
+      <ion-item routerLink="/perfil-cuenta">
+        <ion-icon name="lock-closed-outline" color="tertiary" class="ion-padding-horizontal"></ion-icon>
+        <ion-label> Politicas de Privacidad</ion-label>
+      </ion-item>
+  
+      <ion-item routerLink="/perfil-terminos">
+        <ion-icon name="newspaper-outline" color="tertiary" class="ion-padding-horizontal"></ion-icon>
+        <ion-label> Terminos y Condiciones</ion-label>
+      </ion-item>
+    
+      <ion-item routerLink="/perfil-escribenos">
+        <ion-icon name="mail-outline" color="tertiary" class="ion-padding-horizontal"></ion-icon>
+        <ion-label> Escribenos</ion-label>
+      </ion-item>
+  
+  
+      <ion-item (click)="presentAlert()" routerLink="/login">
+        <ion-icon name="close-circle-outline" color="tertiary" class="ion-padding-horizontal"></ion-icon>
+        <ion-label> Cerrar Sesión</ion-label>
+      </ion-item>
+    </ion-list>
+        <ion-img src="assets/img/shapes.svg"></ion-img>
+  </ion-content>
+
+
+  
+  
+  
