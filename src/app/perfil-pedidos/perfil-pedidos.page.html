@@ -80,14 +80,6 @@
 
 <!--MODAL-->
 
-  <ion-header >
-    <ion-toolbar >
-      <ion-title>Inline Modal</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  <ion-content color="primary" class="ion-padding">
-    <ion-button id="open-modal" expand="block">Open</ion-button>
-    <p>{{ message }}</p>
     <ion-modal trigger="open-modal" (willDismiss)="onWillDismiss($event)">
       <ng-template>
         <ion-header>
@@ -103,7 +95,7 @@
             </ion-buttons>
           </ion-toolbar>
         </ion-header>
-        <ion-content color="primary" class="ion-padding">
+        <ion-content color="primary" class="">
           <ion-card>
 
         <!--UBICACION ACTUAL-->
@@ -162,5 +154,5 @@
         </ion-content>
       </ng-template>
     </ion-modal>
-  </ion-content></ion-content>
+
 
